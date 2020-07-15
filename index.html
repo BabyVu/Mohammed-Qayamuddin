@@ -1,9 +1,372 @@
+<!--
+--Designed and Developed by Zahid Shaikh
+-->
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Mohammed</title>
-  </head>
-  <body>
-    <h1>Haur kya bolri public</h1>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta id="phoneNavBar" name="theme-color" content="rgba(0, 0, 0, 1)">
+    <!-- Windows Phone -->
+    <meta id="phoneNavBar1" name="msapplication-navbutton-color" content="rgba(0, 0, 0, 1)">
+    <!-- iOS Safari -->
+    <meta id="phoneNavBar2" name="apple-mobile-web-app-status-bar-style" content="rgba(0, 0, 0, 1)">
+
+    <link id="styleSheetTheme" rel="stylesheet" href="dist/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <!--Animations Link by loading.io-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+    <title>Personal Portfolio</title>
+</head>
+<body>
+
+    <!--#############################################################
+                            HEADER SECTION
+    ##############################################################-->
+
+    <header>
+
+        <nav>
+
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
+
+            <ul class="menu-nav shadow-lg">
+                    <div class="profile-image rounded-circle"></div>
+                <li class="nav-item top-most">
+                    <a href="#home" class="nav-link">
+                        Home   
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about-me" class="nav-link">
+                        About Me   
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">
+                        Skills   
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#services" class="nav-link">
+                        Services   
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#contact" class="nav-link">
+                        Contact Me 
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#social" class="nav-link">
+                        Social   
+                    </a>
+                </li>
+            </ul>
+            
+        </nav>
+
+    </header>
+
+    <!--#############################################################
+                    MAIN SECTION
+    ##############################################################-->
+
+    <main>
+        
+        <!-- Color-switcher Box -->
+        <div class="color-switcher"> 
+            <h5 class="text-center">Color Options</h5>
+            <div class="switcher-btn">
+                <i class="fa fa-cog fa-spin fa-3x fa-fw gear-check"></i>
+            </div>
+            <div class="colors">
+                <p>Choose your favourite colour</p>
+                <hr>
+                <ul>
+                    <li data-value="dist/css/style.css" data-color="rgba(0, 0, 0, 1)"></li>
+                    <li data-value="dist/css/themes/blue.css" data-color="rgb(149, 56, 158)"></li>
+                    <li data-value="dist/css/themes/yellow.css" data-color="rgb(240, 165, 0)"></li>
+                    <li data-value="dist/css/themes/purple.css" data-color="rgb(62, 32, 109)"></li>
+                    <li data-value="dist/css/themes/red.css" data-color="rgb(250, 22, 63)"></li>
+                    <li data-value="dist/css/themes/green.css" data-color="rgb(145, 189, 58)"></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!--Main Section-->
+        <section class="hero" id="home">
+
+            <div class="container">
+                <h4>Welcome To My Website</h4>
+                <h1 class="display-1">Qayamuddin Khan</h1>
+                <h3>ANDRIOD DEVELOPER, PROGRAMMER</h3>
+                <div class="social-links p-1">
+                    <a href="https://github.com/BabyVu">
+                        <i class="fab fa-github p-2 fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mohdkhan121/?hl=en">
+                        <i class="fab fa-instagram   p-2   fa-2x"></i>
+                    </a>
+                    <a href="https://discordapp.com/login">
+                        <i class="fab fa-discord   p-2   fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com">
+                        <i class="fab fa-linkedin   p-2   fa-2x"></i>
+                    </a>
+                </div>
+                <a href="#about-me"><i class="fas fa-rocket fa-3x ld ld-dim py-5" style="transform:rotate(135deg);"></i></a>
+            </div>
+
+        </section>
+        
+        <!--About Me-->
+        <section class="about-me py-5" id="about-me">
+
+            <div class="container text-justify my-3">
+                <h1 class="title py-3 text-center">About Me</h1>
+                <div class="container py-5">
+                    <h5 class="about-content shadow p-2 rounded">
+                        My name is Qayamuddin Khan a  Web Developer, App developer & a Programmer. Contact Me if you need a 
+                        Website or An App Also check my Skills & Services to Know more. Thank you!!!.
+                    </h5>
+                </div>
+            </div>
+
+        </section>
+        
+        <!--Skills-->
+        <section class="skills py-5" id="skills">
+
+            <div class="container text-justify my-3">
+                <h1 class="title py-3 text-center">My Skills</h1>
+                <div class="container">
+    
+                    <div class="skill-container py-3">
+                        <h3>HTML5 / CSS3 / SASS</h3>
+                        <div class="progress" style="height: 30px; border: 1px solid grey; border-radius: 100px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="width:99%; border-radius: 100px;">
+                              <span class="sr-only">100% Complete</span>
+                              99%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-container py-3">
+                        <h3>Bootstrap</h3>
+                        <div class="progress" style="height: 30px; border: 1px solid grey; border-radius: 100px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="width:100%; border-radius: 100px;">
+                              <span class="sr-only">100% Complete</span>
+                              100%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-container py-3">
+                        <h3>JavaScript</h3>
+                        <div class="progress" style="height: 30px; border: 1px solid grey; border-radius: 100px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="width:75%; border-radius: 100px;">
+                              <span class="sr-only">75% Complete</span>
+                              75%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-container py-3">
+                        <h3>Andriod Application</h3>
+                        <div class="progress" style="height: 30px; border: 1px solid grey; border-radius: 100px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="width:85%; border-radius: 100px;">
+                              <span class="sr-only">85% Complete</span>
+                              85%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-container py-3">
+                        <h3>JAVA</h3>
+                        <div class="progress" style="height: 30px; border: 1px solid grey; border-radius: 100px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="width:90%; border-radius: 100px;">
+                              <span class="sr-only">90% Complete</span>
+                              90%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-container py-3">
+                        <h3>Git / Github</h3>
+                        <div class="progress" style="height: 30px; border: 1px solid grey; border-radius: 100px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="width:90%; border-radius: 100px;">
+                              <span class="sr-only">90% Complete</span>
+                              90%
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+        </section>
+        
+        <!--Services-->
+        <section class="services  py-5" id="services">
+            
+            <div class="container text-justify my-3">
+                <h1 class="title py-3 text-center">My Services</h1>
+
+                <div class="row mt-4 text-center">
+                    <div class="col-md-4">
+                        <h1 class="display-4"><i class="fab fa-html5"></i></h1>
+                        <h3>Static Website</h3>
+                        <p >
+                            I develope static websites like Portfolios, Business Portfolios, Resumes, etc. Using HTML, CSS and JavaScript with best after sales services and management.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h1 class="display-4"><i class="fas fa-pen-square"></i></h1>
+                        <h3>Web Designing</h3>
+                        <p >
+                            I Design Prototypes/ Templates for Websites before building them. I use amazing technologies like Adobe XD and Figma. They also provide Styling Suggestions which is a good feature.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h1 class="display-4"><i class="fab fa-android"></i></h1>
+                        <h3>Android App</h3>
+                        <p >
+                            I Design and Develope Commercial, E-Commerce Websites using Wordpress which simplifies the workflow. I've completed 2 projects for E-Commerce Websites.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-4 text-center">
+                    <div class="col-md-4">
+                        <h1 class="display-4"><i class="fa fa-code"></i></h1>
+                        <h3>Clean & Valid Code</h3>
+                        <p >
+                            Code I use to develope websites are Clean & Valid. I use SASS to makes websites 100% managable. I also mark the codes with comment so that other Developers can Understand it easily.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h1 class="display-4"><i class="fas fa-cogs"></i></h1>
+                        <h3>Easy To Customize</h3>
+                        <p >
+                            Websites I develope are flexible and can be customized easily. I mostly use HTML, CSS and Bootstrap for my Front End UI, If required. And the code complexity is reduced using SASS and the Website is 100% Customizable.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h1 class="display-4"><i class="fa fa-tablet"></i></h1>
+                        <h3>100% Responsive</h3>
+                        <p >
+                            Before Developing a Website let it be static or dynamic, I always keep in mind to develope them in a proper was i.e, they can be used in multiple devices link Smartphones, Laptops, Desktops.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        
+        </section>        
+        
+        <!--Contact-->
+        <section class="contact py-5" id="contact">
+                        
+            <div class="container text-justify my-3">
+                <h1 class="title py-3 text-center">Contact Me</h1>
+                
+                <div class="contact-container">
+                        <div class="row">
+                            <div class="col-md-6 contactBackground contact-form">
+                                <form
+                                action="https://formspree.io/mjvavwrn"
+                                method="POST">
+                                <h1 class="contact-title">Give me a Quote</h1>
+                                <h6>Your Name</h6>
+                                    <input type="text" name="name" placeholder="Enter Your name" required>
+                                <h6>Your Email</h6>
+                                    <input type="email" name="_replyto" placeholder="Enter Your email" required>
+                                <h6>Leave a Message</h6>
+                                    <textarea name="message" placeholder="Write your message here."
+                                    required></textarea>
+                                    <button type="submit" rows="3" class="btn btn-success mb-2">Send</button>
+                                </form>
+                            </div>
+                            <div class="col-md-6 text-center mt-3">
+                                <i class="fas fa-envelope fa-3x"></i>
+                                <h5 class="py-3">mohdk9489@gmail.com</h5>
+                                <i class="fas fa-phone fa-3x"></i>
+                                <h5 class="py-3">+91 8412935654</h5>
+                                <i class="fas fa-location-arrow fa-3x"></i>
+                                <h5 class="py-3">INDIA , Maharashtra - Pune</h5>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Social-->
+        <section class="social-container py-5" id="social">
+            <div class="container">
+        
+                <!-- Section-header -->
+                <div class="section-header text-center">
+                    <h2 class="title">Social</h2> 
+                </div>
+                
+                <!-- Section-body -->
+                <div class="section-body">
+                        
+                        <!-- Social media section -->
+                        <div class="social-media text-center">
+                            <p>You can find me on social media</p>
+                            <!-- social icon links -->
+                            <ul class="social">
+                                <li><a href="https://github.com/BabyVu"><i class="fab fa-github" title="github"></i></a></li>
+                                <li><a href="https://www.instagram.com/mohdkhan121/?hl=en"><i class="fab fa-instagram" title="instagram"></i></a></li>
+                                <li><a href="https://discordapp.com/login"><i class="fab fa-discord" title="discord"></i></a></li>
+                                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin" title="Linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                        
+                        
+                </div>
+                <!-- end Section-body -->
+                
+            </div>
+        </section>                
+
+
+        <!--Scroll To Top Button-->
+            <i class="fas fa-rocket" onclick="topFunction()" id="myBtn" style="display: none; transform: rotate(-45deg);" title="Go to top"></i>
+
+    </main>
+
+    <!--#############################################################
+                    FOOTER SECTION
+    ##############################################################-->
+
+    <footer>
+        <h5 class="footer-title text-center"><span class="name">Qayamuddin Khan</span> | Portfolio</h5>
+    </footer>
+
+
+
+
+    <!--################################    Script Section    ################################-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="dist/js/main.js"></script>
+</body>
 </html>
